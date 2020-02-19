@@ -1,6 +1,6 @@
 
  
-This program plots distributions of monthly mean surface air temperature anomalies over the Australian mainland and Tasmania. 
+The program GISS_temp_Aus.m plots distributions of monthly mean surface air temperature anomalies over the Australian mainland and Tasmania. 
 
 Data supplied by NASA GISS.
 
