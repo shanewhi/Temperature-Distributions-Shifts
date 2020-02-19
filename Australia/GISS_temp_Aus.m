@@ -521,12 +521,14 @@ VHot = " num2str(vhot_T5_djf, "%3.1f") "%"], 'fontname', 'arial', ...
 'fontsize', 12);
 grid on;
 
-%add page title
+%add page text
 ha = axes("Position", [0 0 1 1], "Xlim", [0 1], "Ylim", [0 1], "Box", "off", ...
 "Visible", "off", "Units", "normalized", "clipping", "off");
 text(0.52, 0.98,"Monthly mean temperature distributions over the Australian \
 mainland and Tasmania during austral summer", ...
 "HorizontalAlignment", "center", "VerticalAlignment", "top",'fontsize', 16);
+text(0.43, 0.54,"Cold months are between -1 and -3\nMild months are between -1 and 1\nHot months are between 1 and 3\nVery Hot (VHot) months are greater than or equal to 3", ...
+"HorizontalAlignment", "left", "VerticalAlignment", "top",'fontsize', 12);
 
 
 % Plot austral autumn histograms
@@ -602,12 +604,14 @@ VHot = " num2str(vhot_T5_mam, "%3.1f") "%"], 'fontname', 'arial', ...
 'fontsize', 12);
 grid on;
 
-%add page title
+%add page text
 ha = axes("Position", [0 0 1 1], "Xlim", [0 1], "Ylim", [0 1], "Box", "off", ...
 "Visible", "off", "Units", "normalized", "clipping", "off");
 text(0.52, 0.98,"Monthly mean temperature distributions over the Australian \
 mainland and Tasmania during austral autumn", ...
 "HorizontalAlignment", "center", "VerticalAlignment", "top",'fontsize', 16);
+text(0.43, 0.54,"Cold months are between -1 and -3\nMild months are between -1 and 1\nHot months are between 1 and 3\nVery Hot (VHot) months are greater than or equal to 3", ...
+"HorizontalAlignment", "left", "VerticalAlignment", "top",'fontsize', 12);
 
 
 % Plot austral winter histograms
@@ -683,12 +687,14 @@ VHot = " num2str(vhot_T5_jja, "%3.1f") "%"], 'fontname', 'arial', ...
 'fontsize', 12);
 grid on;
 
-%add page title
+%add page text
 ha = axes("Position", [0 0 1 1], "Xlim", [0 1], "Ylim", [0 1], "Box", "off", ...
 "Visible", "off", "Units", "normalized", "clipping", "off");
 text(0.52, 0.98,"Monthly mean temperature distributions over the Australian \
 mainland and Tasmania during austral winter", ...
 "HorizontalAlignment", "center", "VerticalAlignment", "top",'fontsize', 16);
+text(0.43, 0.54,"Cold months are between -1 and -3\nMild months are between -1 and 1\nHot months are between 1 and 3\nVery Hot (VHot) months are greater than or equal to 3", ...
+"HorizontalAlignment", "left", "VerticalAlignment", "top",'fontsize', 12);
 
 
 % Plot austral spring histograms
@@ -764,9 +770,11 @@ VHot = " num2str(vhot_T5_son, "%3.1f") "%"], 'fontname', 'arial', ...
 'fontsize', 12);
 grid on;
 
-%add page title
+%add page text
 ha = axes("Position", [0 0 1 1], "Xlim", [0 1], "Ylim", [0 1], "Box", "off", ...
 "Visible", "off", "Units", "normalized", "clipping", "off");
 text(0.52, 0.98,"Monthly mean temperature distributions over the Australian \
 mainland and Tasmania during austral spring", ...
 "HorizontalAlignment", "center", "VerticalAlignment", "top",'fontsize', 16);
+text(0.43, 0.54,"Cold months are between -1 and -3\nMild months are between -1 and 1\nHot months are between 1 and 3\nVery Hot (VHot) months are greater than or equal to 3", ...
+"HorizontalAlignment", "left", "VerticalAlignment", "top",'fontsize', 12);
