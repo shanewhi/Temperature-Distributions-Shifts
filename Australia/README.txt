@@ -13,7 +13,7 @@ missing data is removed(represented by 9999).
 2. Means are calculated for each month for each time period and displayed, allowing confirmation that means over a time 
 period are zero in each month.
 
-3. The time period T2 (defined as years 195180) is set as the reference period.
+3. The time period T2 (defined as years 1951 to 1980) is set as the reference period.
 
 4. The mean and standard deviation of the reference period is calculated.
 
