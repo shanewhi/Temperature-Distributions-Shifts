@@ -4,7 +4,7 @@ The program GISS_temp_Aus.m plots distributions of monthly mean surface air temp
 
 Data supplied by NASA GISS.
 
-Written for Octave v4.0.3 by @ShaneWhiteEng
+Written for Octave v4.0.3
 
 Method:
 1. Monthly mean temp anomaly observations are imported, organised by month into five time periods labelled T1 to T5, and 
